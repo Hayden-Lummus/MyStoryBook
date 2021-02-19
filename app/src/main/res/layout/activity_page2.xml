@@ -29,7 +29,7 @@
         android:id="@+id/textView3"
         android:layout_width="325dp"
         android:layout_height="164dp"
-        android:text="TextView"
+        android:text="You wake up from your nap with a rather aggresive jolt, as the far-half of the left wing is shoren off. The cabbin rapidly losses pressure, and You find it harder and harder to keep your eyes open."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
