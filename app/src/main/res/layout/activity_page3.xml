@@ -10,7 +10,21 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/huvafen_fushi_sunrise_dawn_maldives_overwater_spa_paul_reiffer_professional_landscape_photograph_photographer_pink_blue_sea_ocean_jetty_wooden_per_aquum"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_marginBottom="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alissona_dark_forest_1_b2eb5961_9raz" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="360dp"
+        android:layout_height="206dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

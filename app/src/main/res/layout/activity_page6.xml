@@ -4,10 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".page4">
+    tools:context=".activity_page6">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="323dp"
+        android:layout_height="174dp"
+        android:text="When you finally open your eyes, you are distraute by the landscape that lays before you."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="480dp"
@@ -15,15 +26,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/waldemar_van_deurse_alienplanet_dmp_4" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="360dp"
-        android:layout_height="161dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/alexander_svr_apeshin_alien_planet_1920_1080" />
 </androidx.constraintlayout.widget.ConstraintLayout>
