@@ -21,7 +21,20 @@
         android:id="@+id/textView"
         android:layout_width="360dp"
         android:layout_height="161dp"
-        android:text="TextView"
+        android:text="You wander through the forest, heading in one direction for miles. Slowly the dense fog begins to clear, and you see a break in the trees. You decide  to head for it hopefully get a better idea of where you are. You reach the clearing and are amazed and intimidated by what you see. A large industrial complex of which it's architexture you've never seen. You start to get closer, but then..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="640dp"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

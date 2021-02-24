@@ -10,7 +10,7 @@
         android:id="@+id/textView4"
         android:layout_width="323dp"
         android:layout_height="174dp"
-        android:text="When you finally open your eyes, you are distraute by the landscape that lays before you."
+        android:text="When you finally open your eyes, you are distraute by the landscape that lays before you. It is completely unknown. Unlike anything you're ever seen. The air is metallic and hurts to breath. You can only stare jawdropped by the alien world that lay before you."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.659"
@@ -28,4 +28,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/alexander_svr_apeshin_alien_planet_1920_1080" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="640dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
